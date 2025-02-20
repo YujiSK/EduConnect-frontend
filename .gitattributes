@@ -1,0 +1,12 @@
+# すべてのテキストファイルの改行コードをLFに統一
+* text=auto
+
+# JSON, Dart, YAML, ShellスクリプトはLFで統一
+*.json text eol=lf
+*.dart text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+
+# Windows固有のファイルはCRLF（Windows用のスクリプト向け）
+*.bat text eol=crlf
+*.cmd text eol=crlf

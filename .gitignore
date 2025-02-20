@@ -1,0 +1,98 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+# .vscode/  # コメントアウト（必要に応じて追加）
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+android/.gradle/
+android/.idea/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/debug.keystore
+local.properties
+
+# Firebase関連の設定ファイル
+gitHubActionsKey.json
+.firebaserc
+firebase.json
+remoteconfig.template.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# APIキーやシークレット情報を含むファイル
+lib/services/translation_service.dart
+
+# Node.js (for Cloudflare Workers)
+node_modules/
+cloudflare/node_modules/
+cloudflare/.wrangler/
+cloudflare/dist/
+
+# Web-related
+web/.dart_tool/
+web/.firebase/
+web/build/
+web/canvaskit/
+web/icons/
+
+# Compiled Binaries
+*.so
+*.dylib
+*.bin
+
+# Logs & Debugging
+*.log
+debug.log
+npm-debug.log
+yarn-error.log
+
+# Coverage & Testing
+coverage/
+test-results/
+junit.xml
+
+# Environment Variables & Configs
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.secret
+
+# その他の環境依存ファイル
+pubspec.lock
