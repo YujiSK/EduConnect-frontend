@@ -50,7 +50,7 @@ local.properties
 gitHubActionsKey.json
 .firebaserc
 .firebase/
-firebase.json
+# firebase.json
 remoteconfig.template.json
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
