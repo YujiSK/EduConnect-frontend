@@ -1,9 +1,12 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:frontend/screens/login_screen.dart';
+
 import 'firebase_options.dart';
 import 'screens/home_screen.dart';
-import 'screens/login_screen.dart';
+// import 'screens/login_screen.dart'; // 一時的に未使用
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+// import 'package:firebase_auth/firebase_auth.dart'; // 一時的に未使用
 
 import 'services/notification_service.dart';
 
@@ -26,12 +29,13 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const AuthGate(), // ログイン状態を確認する画面を表示
+      // 🔽 ログインをスキップ
+      home: const HomeScreen(),
     );
   }
 }
 
-// ユーザーのログイン状態を監視し、適切な画面を表示するウィジェット
+// AuthGate クラスは残しておきますが、現在は使用されていません
 class AuthGate extends StatelessWidget {
   const AuthGate({super.key});
 

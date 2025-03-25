@@ -14,8 +14,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final FirebaseFirestore _db = FirebaseFirestore.instance;
   final TextEditingController _controller = TextEditingController();
-  final TranslationService _translationService =
-      TranslationService(); // DeepL翻訳サービス
+  final TranslationService _translationService = TranslationService(); // DeepL翻訳サービス
 
   String _translatedText = ""; // 翻訳後のテキスト
 

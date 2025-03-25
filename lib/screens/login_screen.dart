@@ -45,10 +45,10 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       appBar: AppBar(title: const Text('ログイン')),
       body: Center(
-        child: ElevatedButton(
-          onPressed: _signInWithGoogle,
-          child: const Text("Google でログイン"),
-        ),
+        // child: ElevatedButton(
+        //   onPressed: _signInWithGoogle,
+        //   child: const Text("Google でログイン"),
+        // ),
       ),
     );
   }
